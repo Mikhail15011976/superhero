@@ -5,7 +5,7 @@ print('Задача №1')
 url='https://akabab.github.io/superhero-api/api/all.json'
 
 response = requests.get(url).json()
-#print(response)
+print(response)
 
 superhero_list = ['Hulk', 'Captain America', 'Thanos']
 super_hero = {}
@@ -21,6 +21,7 @@ print('Герой с максимальным показателем интел�
 print('Задача №2')
 
 from settings import TOKEN
+
 class YaUploader:
 
     base_host = 'https://cloud-api.yandex.net/'
